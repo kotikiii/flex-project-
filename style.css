@@ -113,6 +113,9 @@ h1 {
 .two_four {
   display: flex;
   flex-direction: column-reverse;
+  justify-content: space-between;
+  
+  height: 40px;
 }
 
 .boxthree {
