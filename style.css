@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.bigcard {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+h1 {
+  color: rgb(90, 187, 219);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 250px;
+  height: fit-content;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.buxanka {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(90, 187, 219);
+  border-radius: 5px;
+
+  padding: 7px;
+
+  gap: 5px;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+}
+
+.inline {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.buxanochki {
+  background-color: white;
+  color: rgb(90, 187, 219);
+  font-size: x-small;
+  text-align: center;
+
+  padding: 3px;
+
+  height: 15px;
+  width: 10px;
+
+  justify-content: center;
+}
+
+.text {
+  color: rgb(90, 187, 219);
+
+  width: 500px;
+  height: 150px;
+  display: relative;
+  flex-wrap: wrap;
+}
+
+.boxtwo {
+  width: 250px;
+  height: fit-content;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buxanka1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.two_two {
+  display: flex;
+  flex-direction: column;
+}
+
+.two_three {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.two_four {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.boxthree {
+  width: 250px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.three_one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.three_two {
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.three_three {
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxfour {
+  width: 350px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.four_one {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+.four_two {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.four_three {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.four_four {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.four_five {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.boxfive {
+  width: 350px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.five_one {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: stretch;
+}
+
+.five_two {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.align {
+  height: 5px;
+}
+
+.five_three {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  align-content: baseline;
+}
+
+.b {
+  height: 5px;
+}
+
+.a {
+  height: 8px;
+}
+
+.s {
+  height: 20px;
+}
+
+.e {
+  height: 7px;
+}
+
+.five_four {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.five_five {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.boxsix {
+  width: 380px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.six_one {
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3px;
+}
+
+.buxanochkisix {
+  background-color: white;
+
+  height: 5px;
+  width: 10px;
+}
+
+.six_two {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 2px;
+}
+
+.six_three {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 3px;
+}
+
+.six_four {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 3px;
+}
+
+.six_five {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 3px;
+}
+
+.six_six {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 3px;
+}
+
+.boxseven {
+  width: 380px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+}
+
+.seven {
+  display: flex;
+  flex-direction: row;
+}
+
+.sev3 {
+  order: -4;
+}
+
+.sev1 {
+  order: -3;
+}
+
+.sev4 {
+  order: -2;
+}
+
+.boxeight {
+  width: 250px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.eight_one,
+.eight_two {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+
+  padding: 5px;
+}
+
+.eight,
+.eight1,
+.eight3 {
+  height: 20px;
+  width: 10px;
+}
+
+.eight1 {
+  display: flex;
+  flex-grow: 1;
+}
+
+.eight3 {
+  display: flex;
+  flex-grow: 3;
+}
+
+.boxnine {
+  width: 250px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.nine {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+
+  width: 105px;
+}
+
+.shrinks {
+  width: 50px;
+
+  flex-shrink: 1;
+}
+
+.shrinktwo {
+  width: 25px;
+  flex-shrink: 0;
+}
+
+.boxten {
+  width: 250px;
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.ten {
+  display: flex;
+  flex-direction: row;
+}
+
+.buxanochki {
+  flex-basis: auto;
+}
+
+.ten-two-buxanochka {
+  flex-basis: 240px;
+}
+
+.boxeleven {
+  height: fit-content;
+  padding: 15px;
+
+  display: flex;
+}
+
+.eleven{
+  display: flex;
+  flex-direction: row;
+}
+
+.last1,
+.last2 {
+  width: 10px;
+  height: 8px;
+}
+
+.last1{
+  align-self: flex-end;
+}
+
+.last2{
+  align-self: flex-start;
+}
